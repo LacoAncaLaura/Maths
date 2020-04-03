@@ -32,7 +32,7 @@ public class App
         LogicalOp.jumping();
         LogicalOp.juggling();
         LogicalOp.tasting();
-        //am ramas la countNo. ex.7
+        LogicalOp.countNumbers(1);
 
 
     }

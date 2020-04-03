@@ -1,5 +1,7 @@
 package org.fasttrackit;
 
+import java.util.Scanner;
+
 public class LogicalOp {
     public static void ascendingNumbers(int number) {
         System.out.println("The following numbers are: ");
@@ -43,14 +45,12 @@ public class LogicalOp {
         for (int i = 0; i < 100 ; i+=2)
             System.out.println( i +1);  }
 
-            public static int countNumbers(int number) {
-             number = 38;
-                System.out.println("The following numbers are: ");
-                for (int i = 38; i < 100; i += i)
-                    i+=i;
-                return (38);
+            public static void countNumbers(int number) {
 
-            }}
+                System.out.println("The following numbers are: ");
+                for (int i = number; i < 100; i ++);
+                int totalCountNumbers = number;
+           }}
 
 
 
