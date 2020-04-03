@@ -33,6 +33,7 @@ public class App
         LogicalOp.juggling();
         LogicalOp.tasting();
         LogicalOp.countNumbers(1);
+        LogicalOp.countingNumbers(78);
 
 
     }
