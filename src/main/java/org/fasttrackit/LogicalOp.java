@@ -49,9 +49,10 @@ public class LogicalOp {
 
     public static void tasting() {
         System.out.println("The following numbers are: ");
-        for (int i = 0; i < 100; i +=2 )
-        System.out.println( i +=2);
+        for (int i = 0; i < 100; i += 2)
+            System.out.println(i += 2);
     }
+
     public static void countNumbers(int number) {
         System.out.println("Please add a number: ");
         Scanner scanner = new Scanner(System.in);
@@ -64,16 +65,22 @@ public class LogicalOp {
         }
         System.out.println(totalCountNumbers);
     }
-    public static void countingNumbers(int number) {
-        int countingNumber = 78;
-        int totalCountingNumber=number;
 
+    public static void countingNumbers() {
+        System.out.println("Please add a number: ");
+        Scanner scanner = new Scanner(System.in);
+        int numberFromUser = scanner.nextInt();
+        int countingFor = 0;
+        int totalCountingNumber = numberFromUser;
         System.out.println("The following numbers are: ");
-        for (int i = number; i <= 100; i++){
-            totalCountingNumber += i/number;
-            System.out.println(totalCountingNumber);}
+        for (int i = numberFromUser; i <= 100; i++) {
+            totalCountingNumber += i;
+            countingFor++;
+        }
+        System.out.println(totalCountingNumber/countingFor);
+    }
 
-}}
+}
 
 
 
