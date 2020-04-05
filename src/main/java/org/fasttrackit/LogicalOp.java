@@ -73,7 +73,6 @@ public class LogicalOp {
             totalCountingNumber += i/number;
             System.out.println(totalCountingNumber);}
 
-
 }}
 
 
