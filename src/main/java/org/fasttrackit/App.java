@@ -34,6 +34,7 @@ public class App
         LogicalOp.tasting();
         LogicalOp.countNumbers(1);
         LogicalOp.countingNumbers();
+        LogicalOp.Stars();
 
 
     }
